@@ -1,7 +1,27 @@
 .item {
     width: 200px;
     height: 200px;
-    margin-bottom: 10px;
+    margin-bottom: -30px;
+}
+
+.item-2 {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+.sub-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  /* Change back to space-between */
+    align-items: center;
+    width: 95%;  /* Match the hr width */
+    margin: 0 auto 10px auto;  /* Center it like the hr */
+    padding: 0;  /* Remove padding */
+}
+
+.sub-row h2 {
+    margin: 0;
 }
 
 body {
@@ -11,8 +31,7 @@ body {
 
 .container {
     width: 100vw;
-    height: 80vh;
-    border: 2px solid black;
+    height: 84vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -35,8 +54,13 @@ body {
     flex-direction: column;
     flex-shrink: 0;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 20px;
+    padding-left: 20px;
+}
+
+.middle h2 {
+    margin: 0;
 }
 
 .right {
@@ -52,16 +76,64 @@ body {
 
 .home-score {
     color: black;
-    font-size: 90px;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
 .away-score {
     color: rgb(0, 136, 255);
-    font-size: 90px;
+    font-size: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
 .full-time {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 3px;
+    margin: 3px 0 0 -11px;  /* Remove all side margins */
+}
+
+.main-hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.secondary-hr {
+    border: none;
+    border-top: 2px solid #eaeaea;
+    width: 85%;
+    margin: 10px auto;
+}
+
+.stat-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    padding: 8px 20px;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stat-left {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stat-middle {
+    text-align: center;
+    font-size: 16px;
+    color: #667;
+}
+
+.stat-right {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
 }
