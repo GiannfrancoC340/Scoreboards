@@ -1,7 +1,8 @@
 # Soccer Scoreboard Project
 
 ## Project Overview
-A responsive soccer scoreboard display built with HTML and CSS that shows the final score between Inter Miami CF and New York City FC. The project features team logos, scores, and styled gradient backgrounds for each team's section.
+A responsive soccer scoreboard display built with HTML and CSS that shows the final score between Inter Miami CF and New York City FC on November 29, 2025. 
+The project features team logos, scores, and styled gradient backgrounds for each team's section.
 
 ## Technologies Used
 - HTML5
@@ -148,3 +149,4 @@ This project demonstrates:
 - ✅ Responsive design principles
 
 The scoreboard successfully displays match information in a visually appealing and well-organized format, with clear team branding through colors and logos.
+
